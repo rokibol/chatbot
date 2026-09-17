@@ -7,7 +7,7 @@ from database.connection import run_sql_query, get_db_schema
 
 # ওল্লমার জন্য প্রোভাইডার
 ollama_provider = OpenAIProvider(
-    base_url="http://localhost:11434/v1",
+    base_url="http://host.docker.internal:11434",
     api_key="ollama"
 )
 
